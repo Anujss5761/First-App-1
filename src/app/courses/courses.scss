@@ -1,0 +1,30 @@
+
+
+.box {
+  background-color: #fff;
+  padding: 2vh 4vh;
+  height: 50vh;
+  
+  .courese-img {
+    height: 25vh;
+    width: 30vw;
+    background-color: #effeff;
+    background-size: 100%;
+    img {
+      height: 90%;
+      width: 100%;
+      object-fit: contain;
+    //   border: 2px solid black;
+    }
+  }
+  p {
+    font-size: 0.75rem;
+  }
+
+  
+button{
+   position: absolute;
+   margin-left: -5vh;
+}
+}
+

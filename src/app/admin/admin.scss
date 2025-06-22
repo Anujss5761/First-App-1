@@ -1,0 +1,26 @@
+.card{
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 3%;
+    overflow: hidden;
+}
+
+
+.error {
+    color: red;
+    font-size: 1em;
+    margin-top: .7em;
+}
+
+// .img{
+//     background-color: green;
+// }
+
+
+.imageDiv{
+    img{
+        height: 5rem;
+        width: 5rem;
+    }
+}

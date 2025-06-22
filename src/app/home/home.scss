@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+}
+
+// .container-sm{
+//    position: absolute;
+//    top: 50%;
+//     left: 40%;  
+//     transform: translate(-50%, -50%);
+//     h1{
+//         color: white;
+//         font-size: 2.5rem;
+//     }
+// }
+
+.box {
+  background-color: #fff;
+  padding: 2vh 4vh;
+  height: 40vh;
+  
+  .course-image {
+    height: 20vh;
+    width: 30vw;
+    background-color: #effeff;
+    background-size: 100%;
+
+    img {
+      height: 90%;
+      width: 30%;
+    }
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+section.course{
+    background-color: #effeff;
+    padding: 6vh 6vh;
+}

@@ -1,0 +1,32 @@
+<!-- 
+<a [routerLink]= "['/', 'about',  val ]">Go to About</a> -->
+
+<section>
+    <img src="imgs/banner.png" alt="">
+</section>
+
+<div class="container-sm">
+    <h1>Welcome to the Home Page</h1>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+</div>
+
+<section class="courses">
+    <div class="container">
+        <h2>All Coureses</h2>
+        <!-- <div class="row mt-5 ">
+            @for(course of courses; track $index) {
+                <div class="col-lg-4">
+                    <app-courses [course]="course"></app-courses>
+                </div>
+            }
+        </div> -->
+
+        <!-- <app-courses [courses]="courses">  </app-courses> -->
+
+        <app-courses></app-courses>
+
+        <app-about></app-about>
+    </div>
+
+</section>
